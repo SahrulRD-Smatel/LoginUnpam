@@ -1,0 +1,42 @@
+body {
+    background: url('../assets/intte.gif') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-container {
+    background-color: rgba(255, 255, 255, 0.2); /* Transparansi */
+    backdrop-filter: blur(10px); /* Efek blur */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.login-form h2 {
+    color: #ffffff;
+}
+.form-group label {
+    color: #ffffff;
+}
+.form-control {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    color: #333;
+}
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: none;
+    outline: none;
+}
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    width: 100%;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.text-center a {
+    color: #ffffff;
+}
